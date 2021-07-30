@@ -117,7 +117,7 @@ nav ul li {
 
 .btn {
     display: inline-block;
-    background: #ff523b;
+    background: #370617;
     color: #fff;
     padding: 8px 30px;
     margin: 2rem 0;
@@ -174,6 +174,7 @@ nav ul li {
 
 .col-4 img {
     width: 100%;
+    height: 300px;
 }
 
 .col-4 p {
@@ -182,6 +183,25 @@ nav ul li {
 
 .col-4:hover {
     transform: translateY(-5px);
+}
+
+.col-4 .all-btns {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-4 .all-btns .btnCart {
+    padding: 5px;
+    color: white;
+    background-color: #57cc99;
+    font-size: .9rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.col-4 .all-btns .removeBtn {
+    background-color: #bb3e03;
 }
 
 .title {
@@ -533,8 +553,6 @@ th:last-child {
 
 
 /* ----------------------ACCOUNT PAGE------------------------ */
-
-
 
 
 /* -----------------------media query for menu------------------- */
