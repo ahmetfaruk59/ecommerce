@@ -39,6 +39,16 @@ h4 {
     padding: 20px;
 }
 
+.navbar .logo a {
+    font-size: 2rem;
+    font-weight: 500;
+    transition: all .5s ease-in;
+}
+
+.navbar .logo a:hover {
+    color: #370617;
+}
+
 nav {
     flex: 1;
     text-align: right;
@@ -51,6 +61,14 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-right: 20px;
+}
+
+nav ul li a {
+    transition: all .5s ease-in;
+}
+
+nav ul li a:hover {
+    color: #370617;
 }
 
 .container {
@@ -66,6 +84,7 @@ nav ul li {
     margin-right: 10px;
     padding-right: .4rem;
     position: relative;
+    cursor: pointer;
 }
 
 .fa-shopping-cart span {
@@ -76,6 +95,14 @@ nav ul li {
     background-color: red;
     text-align: center;
     border-radius: 50%;
+}
+
+.shopCart {
+    transition: all .5s ease-in;
+}
+
+.shopCart:hover {
+    color: #370617;
 }
 
 .menu-icon {
@@ -188,7 +215,8 @@ nav ul li {
 .col-4 .all-btns {
     margin-top: 5px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
 }
 
 .col-4 .all-btns .btnCart {
@@ -198,6 +226,7 @@ nav ul li {
     font-size: .9rem;
     border: none;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .col-4 .all-btns .removeBtn {
